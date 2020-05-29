@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CodeWizard.iml" filepath="$PROJECT_DIR$/.idea/CodeWizard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MatPlotLibWorldPop.iml" filepath="$PROJECT_DIR$/.idea/MatPlotLibWorldPop.iml" />
     </modules>
   </component>
 </project>

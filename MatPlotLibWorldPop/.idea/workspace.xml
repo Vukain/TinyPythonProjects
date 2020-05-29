@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f3edb33-5ef5-43ee-8002-b7e698966b02" name="Default Changelist" comment="" />
+    <list default="true" id="620804a2-ae2c-470d-9dc6-343837af3d2b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,15 +15,10 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectId" id="1Xqru5aH6s4sREiwaDW40lUhgNi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1aIiHOeAcpEA6lM7Ol8ffKC0J49" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CourseProjects/MatPlotLibDice" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -37,9 +32,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mpl_squares">
-    <configuration name="die_visual" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MPL" />
+  <component name="RunManager" selected="Python.bar_charts">
+    <configuration name="bar_charts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MatPlotLibWorldPop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -50,7 +45,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/die_visual.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bar_charts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -59,8 +54,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mpl_squares" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MPL" />
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MatPlotLibWorldPop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -71,7 +66,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mpl_squares.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,8 +75,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rw_visual" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MPL" />
+    <configuration name="pandas_issues" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MatPlotLibWorldPop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -92,7 +87,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rw_visual.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_issues.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pie_charts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MatPlotLibWorldPop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pie_charts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,9 +119,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mpl_squares" />
-        <item itemvalue="Python.die_visual" />
-        <item itemvalue="Python.rw_visual" />
+        <item itemvalue="Python.bar_charts" />
+        <item itemvalue="Python.pandas_issues" />
+        <item itemvalue="Python.pie_charts" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -114,25 +131,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2f3edb33-5ef5-43ee-8002-b7e698966b02" name="Default Changelist" comment="" />
-      <created>1581784684500</created>
+      <changelist id="620804a2-ae2c-470d-9dc6-343837af3d2b" name="Default Changelist" comment="" />
+      <created>1586429420870</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581784684500</updated>
+      <updated>1586429420870</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
