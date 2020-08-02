@@ -1,9 +1,9 @@
 def check_sudoku(numbers):
     rows = numbers
     columns = []
-#   columns = [ "".join([elem[i] for elem in rows]) for i,e in enumerate(rows[0])]
+#     columns = [ "".join([elem[i] for elem in rows]) for i,e in enumerate(rows[0])]
     squares = []
-#   squares = [rows[i][x:x + 3] + rows[i + 1][x:x + 3] + rows[i + 2][x:x + 3] for x in range(0, 7, 3) for i in range(0, 7, 3)]
+#     squares = [rows[i][x:x + 3] + rows[i + 1][x:x + 3] + rows[i + 2][x:x + 3] for x in range(0, 7, 3) for i in range(0, 7, 3)]
     alle = [rows, columns, squares]
 
     for i, e in enumerate(rows[0]):
