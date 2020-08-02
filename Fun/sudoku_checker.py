@@ -1,12 +1,10 @@
-
-
 def check_sudoku(numbers):
     rows = numbers
     columns = []
     squares = []
     alle = [rows, columns, squares]
 
-    for i in range(len(rows[0])):
+    for i, e in enumerate(rows[0]):
         sth = ""
         for elem in rows:
             sth += elem[i]
