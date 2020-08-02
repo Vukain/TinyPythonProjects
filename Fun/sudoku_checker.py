@@ -19,7 +19,6 @@ def check_sudoku(numbers):
             squares.append(emp)
 
     sudoku = True
-
     for elem in alle:
         for e in elem:
             cyf = '123456789'
