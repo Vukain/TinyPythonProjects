@@ -23,7 +23,7 @@ A small regex cheatsheet.
 
 # Websites - Django + Bootstrap
 
-A Blog and a Learning Log.
+A Learning Log and two Blogs.
 
 # Web Scraping - Requests + BeautifulSoup + Pillow
 
