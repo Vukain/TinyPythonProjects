@@ -16,7 +16,7 @@ for i in range(10):
     print(next(random_with_sum(3, 100)))
     
 # 3 split partition quicksort
-# put your python code here
+
 x = input().split()
 
 def find_pivot(lst, start, end):
