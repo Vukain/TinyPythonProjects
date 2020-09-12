@@ -16,6 +16,7 @@ for i in range(10):
     print(next(random_with_sum(3, 100)))
     
 # 3 split partition quicksort
+# put your python code here
 x = input().split()
 
 def find_pivot(lst, start, end):
@@ -29,22 +30,30 @@ def find_pivot(lst, start, end):
 def partition(lst, start, end):
     aaa = []
     bbb = []
+    ccc = []
     pivot = find_pivot(lst, start, end)
     small_right = start
     pivot_right = start
     for i in range(start, end + 1):
         x = int(lst[i])
         if  x < pivot:
-            lst.insert(small_right, lst.pop(i))
+            aaa.append(lst[i])
             small_right += 1
             pivot_right += 1
         elif x == pivot:
-            lst.insert(pivot_right, lst.pop(i))
+            bbb.append(lst[i])
             pivot_right += 1
-    return small_right, pivot_right - 1
+        else:
+            ccc.append(lst[i])
+            
+        
+    print(small_right, pivot_right - 1)
+    for el in aaa:
+        print(el, end=" ")
+    for el in bbb:
+        print(el, end=" ")
+    for el in ccc:
+        print(el, end=" ")
     
-a, b = partition(x, 0, len(x) - 1)
+partition(x, 0, len(x) - 1)
 
-print(a, b)
-for el in x:
-    print(el, end=" ")
