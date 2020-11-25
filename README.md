@@ -1,7 +1,7 @@
 # Tiny Python Projects
 Tiny projects and code snippets, made mostly during courses.
 
-# Data Visualisation - MathPlotLib, Plotly
+# Data Visualization - MathPlotLib, Plotly
 
 Data based graphs made with both libraries.
 
