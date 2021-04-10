@@ -110,3 +110,5 @@ print(" ".join(lis2))
 
 lis3 = [word[::-1].capitalize() for word in stg.split()]
 print(" ".join(lis3))
+
+# Stack like ops with nice performance (instead of lists) => collections deque
