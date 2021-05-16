@@ -25,7 +25,7 @@ error_number_list = sorted(errors.items(), key=lambda item: item[1], reverse=Tru
 error_number_list.insert(0, ('Error', 'Count'))
 error_users_list = sorted(per_user.items(), key=lambda item: item[0])
 error_users_list.insert(0, ('Username', 'INFO', 'ERROR'))
-
+ 
 with open('error_message.csv', 'w', newline='') as file:
   header = '{}, {}\n'.format(error_number_list[0][0], error_number_list[0][1])
   file.write(header)
