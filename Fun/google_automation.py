@@ -94,6 +94,7 @@ for file in os.listdir(path):
         img = Image.open(path + file).convert("RGB")
         filename = file.split('.')[0]
         img.resize((600, 400)).save(path + filename + '.jpeg' , 'jpeg')
+        
 # PSUTILS
 
 #! /usr/bin/env python3
