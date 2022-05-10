@@ -113,7 +113,7 @@ print(" ".join(lis3))
 
 # Stack like ops with nice performance (instead of lists) => collections deque
 
-# Fibo with memoize
+# FIBONACCI WITH MEMOIZE
 
 cache = {0: 0, 1: 1}
 
