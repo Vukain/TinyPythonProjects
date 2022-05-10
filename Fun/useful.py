@@ -112,3 +112,15 @@ lis3 = [word[::-1].capitalize() for word in stg.split()]
 print(" ".join(lis3))
 
 # Stack like ops with nice performance (instead of lists) => collections deque
+
+# Fibo with memoize
+
+cache = {0: 0, 1: 1}
+
+def fibonacci_of(n):
+     if n in cache:
+         return cache[n]
+     cache[n] = fibonacci_of(n - 1) + fibonacci_of(n - 2)  # Recursive case
+     return cache[n]
+[fibonacci_of(n) for n in range(15)]
+# [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377]
