@@ -124,3 +124,13 @@ def fibonacci_of(n):
      return cache[n]
 [fibonacci_of(n) for n in range(15)]
 # [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377]
+
+
+# Python reduce
+
+lis = [n for n in range(1, 11)]
+print(functools.reduce(lambda a, b: a+b, lis))
+
+# JS reduce
+# const initial = 0;
+# console.log(Array.from({length: 5}, (_, i) => i + 1).reduce((accum, curr) => accum + curr, initial));
